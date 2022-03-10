@@ -1,0 +1,5 @@
+hour = int(input())
+min = int(input())
+seccond = int(input())
+seconds = (hour * 60 * 60) + (min * 60) + (seccond * 60)
+print(seconds)
